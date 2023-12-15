@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.cdnfonts.com/css/new-york-extra-large"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section id="hero" class="pb-10">
+      <header
+        class="flex justify-between items-center py-6 px-10 border-b-[0.1px] border-gray-300"
+      >
+        <div class="brand">
+          <img src="./images/NORDIC ROSE.png" alt="logo" class="h-[16px]" />
+        </div>
+        <menu>
+          <button class="block md:hidden" id="navToggler">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                id="openNav"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+              />
+              <path
+                id="closeNav"
+                class="hidden"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+          <nav
+            id="mainNav"
+            class="hidden md:bg-opacity-25 md:block absolute md:sticky bg-gray-50 md:bg-white left-0 top-[75px] w-[100%]"
+          >
+            <div class="flex justify-center py-20 md:py-0">
+              <ul
+                class="flex flex-col md:flex-row gap-16 md:gap-5 items-center"
+              >
+                <li>
+                  <a
+                    class="py-6 px-3 hover:border-b-2 border-black uppercase"
+                    href="#"
+                    >blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="py-6 px-3 hover:border-b-2 border-black uppercase"
+                    href="#"
+                    >about</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="py-6 px-3 hover:border-b-2 border-black uppercase"
+                    href="#"
+                    >links</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="py-6 px-3 hover:border-b-2 border-black uppercase"
+                    href="#"
+                    >projects</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </menu>
+      </header>
+    </section>
+
+    <div class="flex bg-blue-20 justify-center items-center">
+      <div class="pb-5">
+        <img src="./images/intro.png" class="pb-10" />
+        <div class="text-center px-10 md:px-10">
+          <p class="font-bold text-4xl md:text-5xl pb-5">
+            A few words about<br class="md:hidden" />
+            this blog<br class="hidden md:inline-block" />
+            platform,<br class="md:hidden" />
+            Ghost, and how <br class="md:hidden" />this<br
+              class="hidden md:inline-block"
+            />
+            site was made
+          </p>
+          <p class="font-thin text-sm md:text-xl pb-2">
+            why Ghost (& Figma) instead of<br class="md:hidden" />
+            Medium, <br class="hidden md:inline-block" />
+            wordpress or other<br class="md:hidden" />
+            options?
+          </p>
+          <hr
+            class="w-[95%] h-px mx:auto my-4 bg-gray-950 border-0 rounded md:my-10 dark:bg-gray-950"
+          />
+        </div>
+      </div>
+    </div>
+
+    <p class="font-semibold text-center pb-5 text-3xl">All articles</p>
+
+    <div class="flex justify-center items-center pb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <img class="h-auto max-w-full" src="./images/a.png" />
+          <p class="text-center pt-5">
+            Here are some things you<br />should know regarding how<br />
+            we work
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/b.png" />
+          <p class="text-center pt-5">
+            Granny gives everyone the <br />
+            finger, and other tips from<br />
+            OFFF Barcelona
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 12-2.png" />
+          <p class="text-center pt-5">
+            Hello world, or, in other<br />
+            words, why this blog existas
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 13-1.png" />
+          <p class="text-center pt-5">
+            Here are some things you<br />
+            should know regarding how<br />
+            we work
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 13-2.png" />
+          <p class="text-center pt-5">
+            Connecting artificial <br />
+            intelligence with digital <br />
+            product design
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 13.png" />
+          <p class="text-center pt-5">
+            It's all about finding the<br />
+            perfect balance
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 14.png" />
+          <p class="text-center pt-5">
+            I believe learning is the<br />
+            most important skill
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 15.png" />
+          <p class="text-center pt-5">Clients are part of the team</p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 16.png" />
+          <p class="text-center pt-5">Clients are part of the team</p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 17.png" />
+          <p class="text-center pt-5">
+            Here are some things you<br />
+            should know regarding how<br />
+            we work
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 19.png" />
+          <p class="text-center pt-5">
+            Connecting artificial <br />
+            intelligence with digital <br />
+            product design
+          </p>
+        </div>
+        <div>
+          <img class="h-auto max-w-full" src="./images/Rectangle 18.png" />
+          <p class="text-center pt-5">
+            How modern remote <br />
+            working tools get along<br />
+            with Old School Cowboy's methods
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-black text-white max-w-full">
+      <ul class="flex flex-row gap-16 pb-10">
+        <li><a class="py-6 px-4 uppercase" href="#">digital</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">product design</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">remote work</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">ux design</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">distributed teams</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">creativity</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">strategy</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">suspense</a></li>
+        <li><a class="py-6 px-4 uppercase" href="#">growth</a></li>
+      </ul>
+      <div>
+        <div class="brand flex justify-center items-center">
+          <img
+            src="./images/NORDIC ROSE1.png"
+            alt="logo"
+            class="h-[46%] pt-10 pb-5"
+          />
+        </div>
+        <div class="text-center text-xs md:text-sm pb-10">
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br class="md:hidden" />
+            adipisicing elit. Architecto obcaecati modi cupiditate
+          </p>
+          <p>
+            temporibus amet quas. Earum, eius inventore veritatis ratione sequi
+          </p>
+          <p>placeat nam fuga! Ullam ab saepe amet accusamus optio?</p>
+        </div>
+
+        <div
+          class="absolute right-0 buttom-0 rounded-full h-[64px] w-[64px] bg-slate-400"
+        >
+          <div class="flex items-center justify-center h-[100%] w-[100%]">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <ul
+          class="flex flex-row gap-5 pb-20 justify-center items-center text-xs md:text-sm"
+        >
+          <li>
+            <a class="py-6 px-3 uppercase underline underline-offset-1" href="#"
+              >twitter</a
+            >
+          </li>
+          <li>
+            <a class="py-6 px-3 uppercase underline underline-offset-1" href="#"
+              >linkedin</a
+            >
+          </li>
+          <li>
+            <a class="py-6 px-3 uppercase underline underline-offset-1" href="#"
+              >hss</a
+            >
+          </li>
+        </ul>
+        <div class="text-center text-sm pb-10">
+          <p>2012-2020 Nordic Rose Co.</p>
+          <p>All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
